@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: #F8F3D9;
+    color: #504B38;
+}
+.heading{
+    margin-top: -30px;
+}
+.genereted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 100px;
+    width: 80%;
+    color: #504B38;
+    background-color: #EBE5C2;
+    border: none;
+}
+
+.url-generat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 200px;
+    width: 80%;
+    background-color: #EBE5C2;
+    border: none;
+    border-bottom: 5px solid #504B38;
+}
+
+.url-generat form label{
+    font-size: 30px;
+    font-weight: bold;
+}
+.url-generat form input{
+    width: 380px;
+    height: 40px;
+    padding-left: 10px;
+    background-color: #F8F3D9;
+    color: #504B38;
+    border: none;
+}
+.url-generat form button{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: larger;
+    font-weight: bold;
+}
+.url-generat form button:hover{
+    height: 42px;
+    width: 102px;
+}
+.url-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 80%;
+    background-color: #EBE5C2;
+    border: none;
+    margin-top: 30px;
+}
+
+.table{
+    border-collapse: collapse;
+    overflow-y: auto;
+}
+.table th{
+    padding-right: 40px;
+}
+.table td{
+    padding-top: 10px;
+    padding-right: 40px;  
+    overflow-y: auto; 
+}

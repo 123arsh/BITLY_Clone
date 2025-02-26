@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Ups</title>
+    <link rel="stylesheet" href="/signup.css">
+</head>
+<body>
+    <div class="signup">
+        <h1>Sign Up</h1>
+    <form method="post" action="/user/signup">
+        <span>
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Enter your name..." class="one">
+        </span>
+
+        <span>
+            <label for="email">Email</label>
+            <input type="text" name="email" placeholder="Enter your email..." class="two">
+        </span>
+
+        <span>
+            <label for="password">Password</label>
+            <input type="text" name="password" placeholder="Enter your Password..." class="three">
+        </span>
+
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>

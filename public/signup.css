@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #F8F3D9;
+}
+
+.signup{
+    height: 75vh;
+    width: 35%;
+    background-color: #B9B28A;
+    color: #504B38;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+span{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.one{
+    margin-left: 65px;
+    width: 250px;
+    height: 25px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #EBE5C2;
+    color: #504B38;
+}
+
+.two{
+    margin-left: 65px;
+    margin-top: 20px;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    padding-left: 10px;
+    background-color: #EBE5C2;
+    color: #504B38;
+}
+
+.three{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 250px;
+    height: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    background-color: #EBE5C2;
+    color: #504B38;
+}
+
+button{
+    height: 35px;
+    width: 200px;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    margin: 55px auto;
+    border-radius: 15px;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bold;
+}
+
+button:hover{
+    height: 37px;
+    width: 202px;
+}
