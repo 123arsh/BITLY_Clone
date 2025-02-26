@@ -1,6 +1,12 @@
 # SignUpLogin_page
 This  web application is a replica of bitly web app which generats short URLs. The technology i used is Node js, for framework i used express js, database that i used is MongoDB basically its fit my recuirement and all top of that i used EJS for dynamic templetes.
 Its my first ever Backend project and i tried my level best to make it better.
+
+If the User is loged in then the user will directly directed to Home page. if not Login page will appear.
+
+1st. if the user is already registered then he will directed to Home page. if not registered he will directed to signup page.
+
+2nd. User will register him self visit our web app.
 ![Image](https://github.com/user-attachments/assets/0dd37988-fc22-4a94-9ddc-23c6a609433d)
 ![Image](https://github.com/user-attachments/assets/8fbba892-2b5d-47ab-a829-48ed957b0731)
 ![Image](https://github.com/user-attachments/assets/d7723d19-2c6c-4ce4-b1a6-b320cae9da9a)
